@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="firstname" value="ashu"></parameter>
+<parameter name="lastname" value="kokitkar"></parameter>
+<parameter name="phone" value="1234567890"></parameter>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.etlhive.selenium.googlehomepage.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
